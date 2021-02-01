@@ -1,0 +1,31 @@
+
+
+.theme--dark {
+  --primary-color: #000;
+  --secondary-color: gray;
+}
+
+.theme--white {
+  --primary-color: red;
+  --secondary-color: blue;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+h1:hover {
+  color: var(--secondary-color);
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+}
+
+.primary-background {
+  background-color: var(--primary-color);
+}
+
+.secondary-background {
+  background-color: var(--secondary-color);
+}
