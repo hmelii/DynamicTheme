@@ -1,7 +1,7 @@
-<div [class]="themeClass">
+<div class="wrapper" [class]="themeClass">
 <h1>angular-dynamic-theme-example</h1>
 <div class="block primary-background">Primary</div>  <br>
 <div class="block secondary-background">Secondary</div>  <br>
-  <label><input name="theme" checked type="radio" (click)="changeTheme()" /> Светлая тема</label>
-  <label><input name="theme" type="radio" (click)="changeTheme()" /> Тёмная тема</label>
+  <label><input name="theme" checked type="radio" (click)="changeTheme('white')" /> Светлая тема</label>
+  <label><input name="theme" type="radio" (click)="changeTheme('dark')" /> Тёмная тема</label>
 </div>

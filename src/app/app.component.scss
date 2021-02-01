@@ -1,11 +1,19 @@
 
 
+.wrapper {
+  height: 100vh;
+  transition: all 1s ease;
+  padding: 30px;
+}
+
 .theme--dark {
+  background: #999494;
   --primary-color: #000;
-  --secondary-color: gray;
+  --secondary-color: green;
 }
 
 .theme--white {
+  background: #ffffff;
   --primary-color: red;
   --secondary-color: blue;
 }
@@ -20,6 +28,7 @@ h1:hover {
 .block {
   width: 100px;
   height: 100px;
+  transition: all 1s ease;
 }
 
 .primary-background {

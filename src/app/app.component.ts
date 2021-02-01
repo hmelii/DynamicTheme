@@ -13,8 +13,7 @@ export class AppComponent {
   constructor() {
   }
 
-  changeTheme() {
-    this.themeClass = this.themeClass === 'theme--white' ? 'theme--dark' : 'theme--white';
-    console.log(this.themeClass);
+  changeTheme(theme: string) {
+    this.themeClass = `theme--${theme}`;
   }
 }
